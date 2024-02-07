@@ -1,0 +1,44 @@
+/* Home.css */
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+  }
+  
+  .input {
+    padding: 10px;
+    font-size: 16px;
+    border: 2px solid #ccc;
+    border-radius: 5px;
+    width: 300px;
+    margin-bottom: 20px;
+  }
+  
+  .weather-container {
+    background-color: #f9f9f9;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    max-width: 400px;
+    width: 100%;
+    position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+  }
+  
+  .weather-container h2 {
+    margin-bottom: 10px;
+    color: #333;
+  }
+  
+  .weather-data div {
+    margin-bottom: 5px;
+  }
+  
+  .weather-data div:last-child {
+    margin-bottom: 0;
+  }
+  
